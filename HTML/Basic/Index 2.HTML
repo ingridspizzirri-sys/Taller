@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+.caja1{
+    display:flex;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+.caja2{ 
+    display:flex;
+    background-color: rgb(43, 138, 138);
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caja3{
+    display: flex;
+    justify-content:flex-end;
+   /*  background-color: antiquewhite; */
+   width: 100%/*Toma el ancho del padre*/
+
+}
+ 
+
+    </style>
+</head>
+<body>
+
+<div class="caja2">
+    <div class="caja3">
+        <h1>caja2</h1>
+
+    </div>
+    <div class="caja1">
+        <h1>flexblox</h1>
+
+
+    </div>
+
+
+</div>
+
+
+    
+    
+</body>
+</html>
